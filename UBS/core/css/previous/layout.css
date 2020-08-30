@@ -1,0 +1,414 @@
+/* Positioning CSS */
+html,body {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #000;   
+}
+
+html {
+	overflow: auto;
+	overflow-y: scroll;
+}
+
+body {
+	font: normal .8em Arial, Helvetica, sans-serif;
+	color: #353535;
+}
+
+
+
+input,textarea,button,select,option {
+	font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+#header {
+	clear: both;
+	height:108px;
+}
+
+#logo {
+	float: left;
+	padding-left: 7px;
+}
+
+#banner {
+	padding-right: 19px;
+	height: 45px;
+}
+
+#app-title {
+	float: left;
+	padding-left: 20px;
+}
+
+#app-name {
+	/*float: left;*/
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+#app-tagline {
+	font-size: 12px;
+	/*padding-top: 40px;*/
+	padding-top: 7px;
+}
+
+#app-title-right {
+	float: right;
+	padding-right: 20px;
+}
+
+#app-right>#app-name {
+	float:right;
+}
+
+#top-nav-wrapper {
+	float: left;
+	clear: both;
+	width: 100%;
+	height: 29px;
+	border-bottom: 1px solid #666;
+}
+
+#content-wrapper {
+	width: 940px;
+	float: left;
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#left-col {
+	float: left;
+	width: 180px;
+	margin-right: 10px;
+}
+
+#right-col {
+	float: left;
+	width: 750px;
+}
+
+#right-col.full-width {
+	width: 100%;
+}
+
+#content-left {
+	float: left;
+	width: 560px;
+}
+
+#content-left.more-width {
+	width: 750px;
+}
+
+#content-right {
+	float: left;
+	width: 180px;
+	font-size: .8em;
+	margin-left: 10px;
+}
+
+#footer-wrapper {
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	border-top: 1px dashed #666;
+}
+
+#footer {
+	padding: 12px;
+	color: #666;
+	font-size: .95em;
+}
+
+#dynamic-footer {
+	margin-bottom: 10px;
+}
+
+#sub-links-footer {
+	padding-top: 10px;
+}
+
+#broadcast-messages {
+	margin: 0 0 16px 5px;
+	border: 1px solid #999;
+	padding: 10px 10px 10px 63px;
+	width: 700px;
+	font-size: 1.2em;
+}
+
+div.clear {
+	clear: both;
+}
+
+div.banner-links {
+	float: right;
+	margin-top: 16px;
+	position: relative;
+	font-size: .85em;
+	color: #FFF;
+}
+
+div.wrapper {
+	width: 100%; /* total width */
+	margin: 0;
+	border-bottom: 1px solid #777;
+}
+
+div.page-block {
+	margin-top: 1em;
+	width: 100%;
+	clear: both;
+	line-height: 1.4em;
+}
+
+div.page-block hr {
+	width:100%;
+	float: left;
+}
+
+div.page-block div.required-info {
+	font-size: .9em;
+	float: left;
+	width: 100%;
+}
+
+div.page-block div.page-header-title {
+	padding: 3px;
+	font-size: 1em;
+	font-weight: bold;
+	border-bottom: solid 1px #666;
+	color: #FFF;
+}
+
+div.page-block div.page-header {
+	border: solid 1px #666;
+}
+
+div.page-block div.page-header-row {
+	padding: 3px;
+	font-size: 1em;
+}
+
+div.page-block div.page-header-row-label {
+	width: 20%;
+	float: left;
+	font-weight: bold;
+}
+
+div.page-block div.page-header-row-value {
+	width: 30%;
+	float: left;
+}
+
+div.page-block div.page-header-row-label-1col {
+	width: 20%;
+	float: left;
+	font-weight: bold;
+}
+
+div.page-block div.page-header-row-value-1col {
+	width: 80%;
+	float: left;
+}
+
+div.page-title {
+	width: 100%;
+	clear: both;
+}
+
+div.page-title div.page-name {
+	float: left;	
+}
+
+div.page-title h1 {
+	position: relative;
+	padding: 0;
+	font-size: 1.6em;
+	font-weight: bold;
+	border: 0;
+	color: #000;
+}
+
+div.page-title div.page-help {
+	text-align: right;
+	padding-top: .3em;
+	height: 10px;
+}
+
+div.page-title div.page-help span.page-help {
+	font-size: 0.8em;
+	text-align: right;
+	margin-top: 2em;
+}
+
+div.page-info {
+	padding: 0;
+	float: left;
+	clear: both;
+	margin: 0;
+}
+
+div.messages {
+	padding: 0;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+div.security-statement {
+	text-align: justify;
+	padding: .5em;
+	padding-bottom: 0;
+	font-size: .7em;
+	color: #595959;
+	margin-top: 3.5em;
+	clear: both;
+	line-height: 1.3em;
+}
+
+div.security-statement a {
+	color: #777;
+}
+
+div.security-statement a:hover {
+	color: #000;
+}
+
+div.watermark-background {
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;	
+}
+
+span.info-box {
+	float: left;
+	text-align: left;
+	width: 172px;
+	font-size: .9em;
+	border: 1px solid #777;
+	padding: 3px;
+}
+
+span.info-header {
+	font-weight: bold;
+}
+
+span.info-message {
+	color: blue;
+	font-weight: bold;
+}
+
+span.error {
+	color: #a20000;
+	margin: 0;
+	padding: 0;
+}
+
+span.errorsHeader {
+	font-weight: bold;
+	color: #a20000;
+}
+
+span.error label:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	padding: 0.5em;
+	margin: 0;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+h2 {
+	padding: 0em;
+	margin: 0;
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+hr.info-break {
+	color: #777;
+	border: 0px;
+	padding: 0;
+	height: 1px;
+}
+
+img {
+	border-width: 0;
+}
+
+p {
+	padding: 0;
+	margin: 0.5em;
+	font-size: 1em;
+}
+
+p.info-text {
+	margin: .1em;
+	line-height: 12px;
+}
+
+ul {
+	margin-top: 0;
+	padding-right: 1em;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+ul.errors {
+	padding-right: 1em;
+	text-align: left;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+    .skip {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+    
+    a.skip:active, 
+    a.skip:focus, 
+    a.skip:hover {
+        left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+        position: static 
+    }
+    
+    .hidden 
+{  position:absolute;
+   left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  }
+  
+  a:focus,
+span:focus,
+.banner-links ul li a:focus 
+{
+font-weight: 700;
+font-size: 107%;
+}
