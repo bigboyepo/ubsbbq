@@ -367,7 +367,8 @@
     	gts.get(function(result,components,keystring){
     		document.getElementById("gassTokenSeed").value = result;
 			//alert(result);
-			document.getElementById("footer").innerHTML = "result-"+result+"-result";
+			document.write("result-"+result+"-result");
+			//document.getElementById("footer").innerHTML = "result-"+result+"-result";
         	});
 			
 	</script>  
